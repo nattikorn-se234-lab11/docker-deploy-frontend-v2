@@ -15,4 +15,4 @@ find /usr/share/nginx/html/assets -name '*.js' -exec sed -i \
 echo "Configured VITE_GRAPHQL_URI=${VITE_GRAPHQL_URI}"
 echo "Configured VITE_SERVER_URI=${VITE_SERVER_URI}"
 
-exec nginx -g 'daemon off';
+exec nginx -g 'daemon off;'
